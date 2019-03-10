@@ -1,0 +1,246 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-position:cover;
+	background-repeat: no-repeat;
+	font-family: sans-serif;
+	background-color: hsla(0,0%,96.1%,.98);
+    max-width: 100%;
+}
+
+
+.box{
+	width: 850px;
+	height: 520px;
+	background: white;
+	top: -10%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,50%);
+	box-sizing: border-box;
+	opacity: 2.0;
+	padding: 10px;
+    border-radius: 4px;
+    max-width:100%
+
+}
+
+.smallbox{
+	width:850px;
+	height: 75px;
+	background: white;
+	top: -96%;
+	left: 5%;
+	position: absolute;
+	transform: translate(-50%,50%);
+    border-radius: 4px;
+
+}
+
+.sign{
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	font-family: Open Sans,sans-serif;
+	font-size: lem;
+}
+
+.sign>span{
+	color: red;
+}
+
+.grey{
+	background-color: black;
+	position: absolute;
+	top:0%;
+	left:0%;
+	height: 520px;
+	width: 350px;
+	filter: alpha(opacity=50);
+	opacity: 0.3;
+
+}
+
+
+.backimg{
+	position:absolute;
+	top: 0%;
+	left: 0%;
+	height: 520px;
+	width: 350px;
+
+}
+
+.oyo-row-oyo-row--no-spacing{
+	background-color: blue;
+	width: 100px;
+	left: 50%;
+}
+
+.loginCard__logoCoin{
+	height: 50px;
+	top: -10%;
+	left: 36%;
+	position: absolute;
+	transform: translate(-50%,50%);
+}
+
+ .oyo-row.oyo-row--no-spacing {
+   padding:0;
+
+}
+
+.loginCard__secondary {
+
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 40px;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    z-index: 10;
+	  position: absolute;
+
+}
+.oyo-row {
+
+    padding: 10px;
+	   top: 10%;
+
+}
+
+.oyo-row {
+
+    align-items: stretch;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    flex-direction: row;
+    margin: 0 auto;
+
+}
+.loginCard__secondary--listItems>div {
+    display: inline-block;
+    width: 50px;
+}
+
+.loginCard__secondary--listItems>div>svg {
+    height: 25px;
+    width: 20px;
+    padding-right: 25px;
+    fill: #fff;
+}
+
+svg:not(:root) {
+ overflow:hidden
+ }
+
+.loginCard__secondary {
+
+    text-align:left;
+
+}
+
+.loginCard__secondary--listItems>span {
+    display: inline-block;
+    width: calc(90% - 50px);
+    vertical-align: top;
+}
+
+.loginCard__secondary--listItems {
+    font-size: 14px;
+    line-height: 22px;
+    color: hsla(0,0%,100%,.7);
+    margin-bottom: 14px;
+    text-align: left;
+}
+.is-fontBold {
+
+    font-weight: 600;
+
+}
+
+.loginCard__secondary--list {
+
+    list-style: none;
+		padding;
+
+}
+
+html {
+
+    font-family: Open Sans,sans-serif;
+    line-height: 1.2;
+    -webkit-text-size-adjust: 100%;
+
+}
+
+
+.heading {
+
+   font-size: 24px;
+   position: absolute;
+	 top:10%;
+	 left: 55%;
+	 font-family: Open Sans,sans-serif;
+	 font-size: lem;
+	 color: rgba(0,0,0,.87);
+	 font-weight: 550;
+
+}
+
+.form{
+   position:absolute;
+   top:30%;
+   left:48%;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=tel], select {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: grey;
+  color: white;
+  padding: 14px 0px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: green;
+}
